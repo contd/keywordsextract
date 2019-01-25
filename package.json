@@ -1,0 +1,27 @@
+{
+  "name": "keywordsextract",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Jason Kumpf <jason@kumpf.io> (https://kumpf.io)",
+  "license": "MIT",
+  "description": "Extract keywords from website",
+  "keywords": [
+    "keywords",
+    "extract",
+    "node"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "keywordsextract": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "commander": "2.19.0",
+    "gramophone": "0.0.3",
+    "node-readability": "3.0.0",
+    "sanitizer": "0.1.3"
+  }
+}
